@@ -8,11 +8,17 @@ document.addEventListener('DOMContentLoaded', function () {
             const headers = rows[0].split(',');
 
             // Create table header
-            let table = '<thead><tr>';
-            headers.forEach(header => {
-                table += `<th>${header}</th>`;
-            });
-            table += '</tr></thead><tbody>';
+            //let table = '<thead><tr>';
+            //headers.forEach(header => {
+            //    table += `<th>${header}</th>`;
+            //});
+            //table += '</tr></thead><tbody>';
+
+            <tr class="header">
+    <th style="width:60%;">Name</th>
+    <th style="width:40%;">Country</th>
+  </tr>
+  
 
             // Create table rows
             for (let i = 1; i < rows.length; i++) {
