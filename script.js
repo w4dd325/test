@@ -1,8 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
+    
     // Fetch the CSV file
     fetch('data.csv')
         .then(response => response.text())
         .then(data => {
+
             // Parse CSV data
             const rows = data.split('\n');
             const headers = rows[0].split(',');
@@ -13,12 +15,6 @@ document.addEventListener('DOMContentLoaded', function () {
                table += `<th>${header}</th>`;
             });
             table += '</tr></thead><tbody>';
-
-//             <tr class="header">
-//     <th style="width:60%;">Name</th>
-//     <th style="width:40%;">Country</th>
-//   </tr>
-
 
             // Create table rows
             for (let i = 1; i < rows.length; i++) {

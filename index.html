@@ -6,12 +6,9 @@
         }
         
         #myInput {
-          /* background-image: url('/css/searchicon.png');
-          background-position: 10px 10px;
-          background-repeat: no-repeat; */
           width: 100%;
           font-size: 16px;
-          padding: 12px 20px 12px 40px;
+          padding: 12px 20px 12px 12px;
           border: 1px solid #ddd;
           margin-bottom: 12px;
         }
@@ -36,8 +33,9 @@
           background-color: #f1f1f1;
         }
         </style>    
+
         <script>
-        function myFunction() {
+        function searchTable() {
           var input, filter, table, tr, td, i, txtValue;
           input = document.getElementById("myInput");
           filter = input.value.toUpperCase();
@@ -56,23 +54,22 @@
           }
         }
         </script>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSV Display</title>
 </head>
 <body>
-    <h2>Search for a name</h2>
+    <h2>Search for a word or acronym.</h2>
 
-    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search..." title="Type in a name">
+    <input type="text" id="myInput" onkeyup="searchTable()" placeholder="Search..." title="Type in a name">
 
     <table id="myTable">
         <!-- Table content will be dynamically added here -->
     </table>
 
     <script src="script.js"></script>
-
-
 
 </body>
 </html>
