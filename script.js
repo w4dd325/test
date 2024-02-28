@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
     <th style="width:60%;">Name</th>
     <th style="width:40%;">Country</th>
   </tr>
-  
+
 
             // Create table rows
             for (let i = 1; i < rows.length; i++) {
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
             table += '</tbody>';
 
             // Append table to the HTML document
-            document.getElementById('csvTable').innerHTML = table;
+            document.getElementById('myTable').innerHTML = table;
         })
         .catch(error => console.error('Error fetching CSV:', error));
 });
