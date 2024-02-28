@@ -3,4 +3,5 @@ EVC,Electric Vehicle Charging
 CPO,Charge Point Operator
 OCPI,Open Charge Point Interface
 CDR,Charge Detail Record
-EVSE,"Electric Vehicle Supply Equipment. The Electric Vehicle Supply Equipment (EVSE) typically refers to the entire charging system, including the physical charging station, power electronics, and the associated control and communication components. It encompasses everything from the physical charging unit or dock to the software and hardware that facilitates the charging process. If a charging station has two plugs, it means there are two Electric Vehicle Supply Equipment (EVSE) units. Each plug is associated with a separate EVSE, allowing two electric vehicles to charge simultaneously at the same charging station."
+EVSE,"Electric Vehicle Supply Equipment. 
+The Electric Vehicle Supply Equipment (EVSE) typically refers to the entire charging system, including the physical charging station, power electronics, and the associated control and communication components. It encompasses everything from the physical charging unit or dock to the software and hardware that facilitates the charging process. If a charging station has two plugs, it means there are two Electric Vehicle Supply Equipment (EVSE) units. Each plug is associated with a separate EVSE, allowing two electric vehicles to charge simultaneously at the same charging station."
